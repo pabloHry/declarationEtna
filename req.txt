@@ -1,0 +1,17 @@
+curl 'https://intra-api.etna-alternance.net/modules/8859/declareLogs' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: en-GB,en;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: authenticator=eyJpZGVudGl0eSI6ImV5SnBaQ0k2TXpBek1qa3NJbXh2WjJsdUlqb2lhR0Z1Y25sZmNDSXNJbVZ0WVdsc0lqb2lhR0Z1Y25sZmNFQmxkRzVoTFdGc2RHVnlibUZ1WTJVdWJtVjBJaXdpYkc5bllYTWlPbVpoYkhObExDSm5jbTkxY0hNaU9sc2ljM1IxWkdWdWRDSmRMQ0pzYjJkcGJsOWtZWFJsSWpvaU1qQXlNaTB4TUMweE1TQXhNem8xTXpveE15SjkiLCJzaWduYXR1cmUiOiJLRFwvWkVFbE5aZWRrU1pSbzRuS0wxXC9LYkpYaGkwQVJ1eUpCTHNGYTNkbm9uZXlRK0xsTlVOWTZJTXJvSEpVYnNMWnRHdjA0QU9qWTNTTzJJeGV2Qkkrcms2alorS0pXbUNtWG8xaXN3Z2NPVlhwSlpmZHNhMzNOM0FwR09GK3pwQ0dwVDQ2N3VBU3A4dWQ5ZkhSbysxaUpZcHRpUUJNMzFoa3ZldkNqMzFjUDNRWEdNYUg1aU53MzZxaWczaVc2NldZZk5mOEhack9TdGNHYkpLRFwvVStlVXBMc2JQREdwY3ludHBsRTRcL0l0a2J6MWl4dkNQVDVLQVlTT2Z6VnduMWlBXC8xTERrS0lQY083cWJQMENvYzd1UW1mbjQ5RVJ6aDIxTzQrSE50S1gwZTJwTHYxeGpMSzZIeW9Ka0FkQUN5TURRWXNcL1pMWlcrblJBSFN3UGhMVlpDNE1XYVVoOWRjVnVwdE93T3ZNVVVCc2V1YUp1YlVMQ0QrUG1FRmFtTEhpNjZaOG0xbzBcLzhHNVpreUo4TGI5eWt2Z3lhOXFWTUpsTnhpTlBWNkpZNXN1ZVhrWjV3RFVKdFBkYXY5eFlSaTF6dzNURmxlekdvYWNlV2c1OGswU3FYYndISldBdjJ6Q3J4XC9vWU9MUmNEZENyRmo5alBuVnB6NXdsWmNrQ1Rxd1ozTWRycVBrZlBtd1NRS1pYdStFQUFUN0NmT0plYlh5dVFpNFg3bDVIYUxEY203NTFEbmJZXC9XNDNxVkxcL01oWmRmNXR1cmZzVnNFOU9vM1dKQzQwVGx4b2F1ZUlBT3pndXVIdVBYdWYwWmVyOVhSRzdLUVBjSkRrQUVLR1NLWjVPQWoyR004XC93V1ZNZ0hTOThYZk9OK1VoVEtITHNCbHJlOWRjc1gySUdVPSJ9' \
+  -H 'Origin: https://intra.etna-alternance.net' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://intra.etna-alternance.net/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-GPC: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36' \
+  --data-raw '{"module":8859,"declaration":{"start":"2022-10-13 13:00","end":"2022-10-13 17:00","content":"Objectifs :\np\nActions :\n l\nRésultats :\ni \nDifficultés rencontrées :\n /"},"sosJawa":false}' \
+  --compressed

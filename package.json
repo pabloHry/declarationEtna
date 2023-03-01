@@ -1,0 +1,21 @@
+{
+  "name": "declaration_ecole",
+  "version": "1.0.0",
+  "main": "start.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "chalk": "4.1.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "inquirer": "8.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
